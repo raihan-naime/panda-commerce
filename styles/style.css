@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  max-width: 1220px;
+  margin: 0px auto;
+  padding: 50px 10px;
+}
+
 
 /* google fonts */
 .poppins-font {
@@ -6,4 +18,180 @@
 
 .inter-font {
   font-family: "Inter", sans-serif;
+}
+
+
+/* common sheared styles */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+  font-weight: 500;
+  padding: 15px 25px;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600px;
+  color: #1F1F1F;
+}
+
+
+
+
+
+/* header styles */
+nav .search-container {
+  position: relative;
+}
+
+.search-container i {
+  position: absolute;
+  top: 6px;
+  right: 20px;
+}
+
+nav input {
+  width: 500px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+nav i {
+  color: brown;
+}
+
+nav li {
+  list-style: none;
+  margin-left: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+}
+
+/* banner content */
+.banner-container {
+  background: rgb(254, 234, 233);
+  padding: 32px;
+  border-radius: 14px;
+  margin: 64px 0px;
+}
+
+.banner-container div {
+  margin-bottom: 8px;
+}
+
+.banner-container .price {
+  color: rgb(255, 19, 111);
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.banner-container img {
+  width: 400px;
+  height: 375px;
+}
+
+/* main section styles */
+main .categories-section {
+  max-width: 1120px;
+  margin: 0px auto;
+}
+
+.category-card {
+  color: white;
+  width: 300px;
+  padding: 35px 30px;
+  border-radius: 10px;
+}
+
+.category-card img {
+  width: 70px;
+  height: 90px;
+}
+
+.category-card h2 {
+  font-size: 36px;
+}
+
+.category-card:nth-child(1) {
+  background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%, rgb(255, 208, 25) 84.486%);
+}
+
+.category-card:nth-child(2) {
+  background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
+}
+
+.category-card:nth-child(3) {
+  background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
+}
+
+
+/* shoes and backpack container styles */
+.shoes-and-backpack-container {
+  max-width: 1440px;
+  background: rgb(244, 244, 244);
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+/* shoes section styles */
+.shoes-section {
+  max-width: 1120px;
+  margin: 0px auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.more-products-link {
+  font-size: 20px;
+  color: #FF9D00;
+  text-decoration: none;
+}
+.shoes-card-container{
+  /* gap: 24px; */
+}
+.shoes-card {
+  width: 300px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px 30px;
+  box-shadow: 10px 10px 10px rgba(216, 201, 201, 0.347);
+}
+
+.shoes-card button {
+  background: #000000;
+}
+
+.shoes-section img {
+  width: 335px;
+  height: 200px;
+}
+
+.product-title {
+  color: #1F1F1F;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.product-description{
+  color: #4E4E4E;
+  margin-bottom: 16px;
+}
+.product-price{
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
