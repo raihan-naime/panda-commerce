@@ -209,3 +209,24 @@ footer{
   background-color: #FFF2F1;
   border-radius: 10px;
 }
+
+.footer-title{
+  font-size: 30px;
+  font-weight: 600;
+  color: #1F1F1F;
+}
+.footer-description{
+  font-weight: 500;
+  color: #707070;
+}
+footer input{
+  padding: 15px 35px;
+  border: none;
+  border-radius: 10px;
+  color: #CCCCCC;
+  margin-right: 0px;
+}
+footer .btn-primary{
+  border-radius: 0px 6px 6px 0px;
+  margin-left: 0px;
+}
