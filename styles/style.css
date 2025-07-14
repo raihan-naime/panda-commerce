@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 header,
@@ -48,25 +49,27 @@ footer {
 
 
 /* header styles */
+
 nav .search-container {
   position: relative;
 }
 
 .search-container i {
   position: absolute;
-  top: 6px;
-  right: 20px;
+  top: 10px;
+  right: 25px;
 }
 
 nav input {
   width: 500px;
   border: none;
   border-radius: 10px;
-  padding: 5px 20px;
+  padding: 10px 20px;
+  background: rgb(241, 241, 241);
 }
 
 nav i {
-  color: brown;
+  color: #BABABA;
 }
 
 nav li {
@@ -85,6 +88,16 @@ nav a {
   padding: 32px;
   border-radius: 14px;
   margin: 64px 0px;
+}
+
+.banner-title {
+  font-size: 56px ;
+  font-weight: 700;
+  color: #1F1F1F;
+}
+
+.banner-description{
+  max-width: 460px;
 }
 
 .banner-container div {
@@ -218,6 +231,7 @@ footer{
 .footer-description{
   font-weight: 500;
   color: #707070;
+  margin-bottom: 10px;
 }
 footer input{
   padding: 15px 35px;
